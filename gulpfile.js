@@ -37,7 +37,7 @@ function images() {
 }
 
 function html() {
-    return src('app/pug/**/*.pug')
+    return src('app/pages/**/*.pug')
         .pipe(pug({
             pretty: true
         }, '*.html'))
